@@ -17,7 +17,7 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 - [ ] pelanggan (admin-pelanggan.html)
 - [ ] ubah pelanggan (admin-ubah-pelanggan.html)
 - [ ] profil admin (admin-profil.html)
-- [ ] ubah profil admin (admin-pelanggan.html)
+- [ ] ubah profil admin (admin-ubah-profil.html)
 
 ## IN PROGRESS
 
