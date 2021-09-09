@@ -10,24 +10,24 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 
 ## TODOS
 
-### dasbor (admin-dasbor.html)
-### catering (admin-catering.html)
-### tambah catering (admin-tambah-catering.html)
-### ubah catering (admin-ubah-catering.html)
-### pelanggan (admin-pelanggan.html)
-### ubah pelanggan (admin-ubah-pelanggan.html)
-### profil admin (admin-profil.html)
-### ubah profil admin (admin-pelanggan.html)
+- [ ] dasbor (admin-dasbor.html)
+- [ ] catering (admin-catering.html)
+- [ ] tambah catering (admin-tambah-catering.html)
+- [ ] ubah catering (admin-ubah-catering.html)
+- [ ] pelanggan (admin-pelanggan.html)
+- [ ] ubah pelanggan (admin-ubah-pelanggan.html)
+- [ ] profil admin (admin-profil.html)
+- [ ] ubah profil admin (admin-pelanggan.html)
 
 ## IN PROGRESS
 
-### beranda (pelanggan-beranda.html)
-### pesanan saya (pelanggan-pesanan-saya.html)
-### profil pelanggan (pelanggan-profil.html)
-### ubah profil pelanggan (pelanggan-ubah-profil.html)
+- [ ] beranda (pelanggan-beranda.html)
+- [ ] pesanan saya (pelanggan-pesanan-saya.html)
+- [ ] profil pelanggan (pelanggan-profil.html)
+- [ ] ubah profil pelanggan (pelanggan-ubah-profil.html)
 
 ## DONE
-### beranda (index.html)
-### masuk (masuk.html)
-### daftar (daftar.html)
+- [*] beranda (index.html)
+- [*] masuk (masuk.html)
+- [*] daftar (daftar.html)
 
