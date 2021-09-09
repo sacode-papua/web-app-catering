@@ -27,7 +27,7 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 - [ ] ubah profil pelanggan (pelanggan-ubah-profil.html)
 
 ## DONE
-- [*] beranda (index.html)
-- [*] masuk (masuk.html)
-- [*] daftar (daftar.html)
+- [x] beranda (index.html)
+- [x] masuk (masuk.html)
+- [x] daftar (daftar.html)
 
