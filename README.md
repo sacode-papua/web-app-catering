@@ -19,9 +19,6 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 - [ ] ubah profil admin (admin-ubah-profil.html)
 
 ## IN PROGRESS
-
-- [ ] beranda (pelanggan-beranda.html)
-- [ ] pesanan saya (pelanggan-pesanan-saya.html)
 - [ ] profil pelanggan (pelanggan-profil.html)
 - [ ] ubah profil pelanggan (pelanggan-ubah-profil.html)
 
@@ -31,4 +28,6 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 - [x] beranda (index.html)
 - [x] masuk (masuk.html)
 - [x] daftar (daftar.html)
+- [X] beranda (pelanggan-beranda.html)
+- [X] pesanan saya (pelanggan-pesanan-saya.html)
 
