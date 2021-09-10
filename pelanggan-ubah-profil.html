@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <title>Profil</title>
+    <title>Ubah Profil</title>
 
 </head>
 
@@ -36,10 +36,10 @@
                         <a class="nav-link px-3 active" aria-current="page" href="pelanggan-beranda.html">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3 active" aria-current="page" href="/pelanggan-pesanan-saya.html">Pesanan Saya</a>
+                        <a class="nav-link px-3 active" aria-current="page" href="pelanggan-pesanan-saya.html">Pesanan Saya</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3 active" aria-current="page" href="#"><i class="uil uil-user"></i> Johan Nasendi</a>
+                        <a class="nav-link px-3 active" aria-current="page" href="pelanggan-profil.html"><i class="uil uil-user"></i> Johan Nasendi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-3 active" aria-current="page" href="masuk.html"><i class="uil uil-signout"></i> Keluar</a>
@@ -55,47 +55,52 @@
 
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal">Profil</h1>
+                <h1 class="display-4 fw-normal">Ubah Profil</h1>
                 <p class="fs-5 text-muted">Biodata yang terdaftar <br>di aplikasi web catering.</p>
             </div>
         </header>
-        <div class="container py-3 d-flex flex-column flex-shrink-0 ">
-          <main class="form-signin">          
-            <form>
 
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput" value="Johan Nasendi" readonly>
-                    <label for="floatingInput">Name</label>
-                </div>
+    <!-- main content -->
+        <div class="container py-5 d-flex flex-column flex-shrink-0 ">
 
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput" value="johan@gmail.com" readonly>
-                    <label for="floatingInput">Email</label>
-                </div>
+            <main class="form-signin">
+                <form>
+                    <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Johan Nasendi">
+                        </div>
 
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput" value="081342843730" readonly>
-                    <label for="floatingInput">No Hp</label>
-                </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="johan@gmail.com">
+                        </div>
 
-                <div class="form-floating">
-                <textarea class="form-control" name="" id=""rows="8" readonly>
-                    Kampung Maribu,Kabupaten Jayapura - Papua -  Indonesia
-                </textarea>
-                    <label for="floatingInput">Alamat</label>
-                </div>
+                        <div class="mb-3">
+                          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="081342843730">
+                        </div>
 
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput" value="Aktif" readonly>
-                    <label for="floatingInput">Status </label>
-                </div>
+                        <div class="mb-3">
+                         <textarea class="form-control" name="" id=""  rows="5">
+                            Kampung Maribu,Kabupaten Jayapura - Papua -  Indonesia
+                         </textarea>
+                        </div>
 
-                <hr>
+                        <div class="mb-2 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+                          <label class="form-check-label" for="exampleCheck1">Aktif</label>
+                        </div>
+                        <div class="mb-2 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+                          <label class="form-check-label" for="exampleCheck1">Tidak Aktif</label>
+                        </div>
 
-              <a href="pelanggan-ubah-profil.html"  class="btn btn-outline-secondary"> <i class="uil uil-edit"></i> Ubah</a>
-          </form>
-        </main>
-    </div>
+                        <hr>
+
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                      </form>
+                </form>
+            </main>
+      </div>
+    <!-- end main content -->
 
     </div>
     <!-- end main content -->
