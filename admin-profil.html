@@ -16,7 +16,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="assets/style.css">
 
-    <title>Beranda</title>
+    <title>Profil</title>
 
 </head>
 
@@ -67,62 +67,47 @@
 
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal">Daftar Paket</h1>
-                <p class="fs-5 text-muted">Pilih paket yang Anda sukai <br>sesuai dengan kebutuhan.</p>
+                <h1 class="display-4 fw-normal">Profil</h1>
+                <p class="fs-5 text-muted">Biodata yang terdaftar <br> di aplikasi web catering.</p>
             </div>
         </header>
 
-        <main>
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Silver</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title py-3">Rp. 1.000.000,-
-                            </h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores alias eveniet,
-                                illum iusto praesentium ea similique? Itaque, dolores delectus quisquam hic earum
-                                repellat harum accusamus assumenda laudantium quos repudiandae!</p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary mt-3"
-                                onclick="window.open('masuk.html', '_self')">Pesan</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Gold</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title py-3">Rp. 2.500.000</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores alias eveniet,
-                                illum iusto praesentium ea similique? Itaque, dolores delectus quisquam hic earum
-                                repellat harum accusamus assumenda laudantium quos repudiandae!</p>
-                            <button type="button" class="w-100 btn btn-lg btn-primary mt-3"
-                                onclick="window.open('masuk.html', '_self')">Pesan</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                        <div class="card-header py-3 text-white bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">Platinum</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title py-3">Rp. 5.000.000</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores alias eveniet,
-                                illum iusto praesentium ea similique? Itaque, dolores delectus quisquam hic earum
-                                repellat harum accusamus assumenda laudantium quos repudiandae!</p>
-                            <button type="button" class="w-100 btn btn-lg btn-primary mt-3"
-                                onclick="window.open('masuk.html', '_self')">Pesan</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container py-3 d-flex flex-column flex-shrink-0 ">
+            <main class="form-signin">
+                <form>
 
-        </main>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" value="Johan Nasendi" readonly>
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" value="johan@gmail.com" readonly>
+                        <label for="floatingInput">Email</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" value="081342843730" readonly>
+                        <label for="floatingInput">No Hp</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" name="" id="" rows="8" readonly>Kampung Maribu,Kabupaten Jayapura - Papua -  Indonesia</textarea>
+                        <label for="floatingInput">Alamat</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" value="Aktif" readonly>
+                        <label for="floatingInput">Status </label>
+                    </div>
+
+                    <hr>
+
+                    <a href="admin-ubah-profil.html" class="btn btn-outline-secondary"> <i class="uil uil-edit"></i>
+                        Ubah</a>
+                </form>
+            </main>
+        </div>
 
     </div>
     <!-- end main content -->
