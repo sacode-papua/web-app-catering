@@ -9,25 +9,28 @@ https://getbootstrap.com/
 https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 
 ## TODOS
-
-
+- [ ]
 
 ## IN PROGRESS
-- [ ] profil pelanggan (pelanggan-profil.html)
-- [ ] ubah profil pelanggan (pelanggan-ubah-profil.html)
-- [ ] dasbor (admin-dasbor.html)
-- [ ] catering (admin-catering.html)
-- [ ] tambah catering (admin-tambah-catering.html)
-- [ ] ubah catering (admin-ubah-catering.html)
-- [ ] pelanggan (admin-pelanggan.html)
-- [ ] ubah pelanggan (admin-ubah-pelanggan.html)
-- [ ] profil admin (admin-profil.html)
-- [ ] ubah profil admin (admin-ubah-profil.html)
+- [ ]
 
 ## DONE
+
 - [x] beranda (index.html)
 - [x] masuk (masuk.html)
 - [x] daftar (daftar.html)
-- [X] beranda (pelanggan-beranda.html)
-- [X] pesanan saya (pelanggan-pesanan-saya.html)
+
+- [x] admin > dasbor (admin-dasbor.html)
+- [x] admin > catering (admin-catering.html)
+- [x] admin > tambah catering (admin-tambah-catering.html)
+- [x] admin > ubah catering (admin-ubah-catering.html)
+- [x] admin > pelanggan (admin-pelanggan.html)
+- [x] admin > ubah pelanggan (admin-ubah-pelanggan.html)
+- [x] admin > profil (admin-profil.html)
+- [x] admin > ubah profil (admin-ubah-profil.html)
+
+- [X] pelanggan > beranda (pelanggan-beranda.html)
+- [X] pelanggan > pesanan saya (pelanggan-pesanan-saya.html)
+- [x] pelanggan > profil (pelanggan-profil.html)
+- [x] pelanggan > ubah profil (pelanggan-ubah-profil.html)
 
