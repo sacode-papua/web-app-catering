@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <!-- Icons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -62,45 +65,32 @@
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal">Profil</h1>
-                <p class="fs-5 text-muted">Biodata yang terdaftar <br>di aplikasi web catering.</p>
+                <p class="text-muted">Biodata yang terdaftar <br>di aplikasi web catering.</p>
             </div>
         </header>
         <div class="container py-3 d-flex flex-column flex-shrink-0 ">
-            <main class="form-signin">
-                <form>
-
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInput" value="Johan Nasendi" readonly>
-                        <label for="floatingInput">Name</label>
+            <div class="row">
+                <div class="col-lg-3 mx-auto">
+                    <div class="d-flex flex-column">
+                        <span class="text-muted text-start">Nama : </span>
+                        <p class="d-block text-start">Johan Nasendi</p>
                     </div>
-
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInput" value="johan@gmail.com" readonly>
-                        <label for="floatingInput">Email</label>
+                    <div class="d-flex flex-column">
+                        <span class="text-muted text-start">Email : </span>
+                        <p class="d-block text-start">j.nasendi@sacode.web.id</p>
                     </div>
-
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInput" value="081342843730" readonly>
-                        <label for="floatingInput">No Hp</label>
+                    <div class="d-flex flex-column">
+                        <span class="text-muted text-start">Alamat : </span>
+                        <p class="d-block text-start">Kampung Maribu,Kabupaten Jayapura - Papua - Indonesia</p>
                     </div>
-
-                    <div class="form-floating">
-                        <textarea class="form-control" name="" id="" rows="8"
-                            readonly>Kampung Maribu,Kabupaten Jayapura - Papua -  Indonesia</textarea>
-                        <label for="floatingInput">Alamat</label>
+                    <div class="d-flex flex-column">
+                        <span class="text-muted text-start">Status : </span>
+                        <p class="d-block text-start">Aktif</p>
                     </div>
-
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInput" value="Aktif" readonly>
-                        <label for="floatingInput">Status </label>
-                    </div>
-
-                    <hr>
-
-                    <a href="pelanggan-ubah-profil.html" class="btn btn-outline-secondary"> <i class="uil uil-edit"></i>
-                        Ubah</a>
-                </form>
-            </main>
+                    <button class="btn btn-sm btn-primary d-flex text-start"><i
+                            class="bi-pencil-square me-1"></i>Ubah</button>
+                </div>
+            </div>
         </div>
 
     </div>
