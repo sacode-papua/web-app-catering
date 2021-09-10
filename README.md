@@ -9,10 +9,10 @@ https://getbootstrap.com/
 https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 
 ## TODOS
-- [  ]
+- [ ] ...
 
 ## IN PROGRESS
-- [  ]
+- [ ] ...
 
 ## DONE
 
