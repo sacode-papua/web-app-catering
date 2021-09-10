@@ -10,6 +10,12 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 
 ## TODOS
 
+
+
+## IN PROGRESS
+- [ ] profil pelanggan (pelanggan-profil.html)
+- [ ] ubah profil pelanggan (pelanggan-ubah-profil.html)
+- [ ] dasbor (admin-dasbor.html)
 - [ ] catering (admin-catering.html)
 - [ ] tambah catering (admin-tambah-catering.html)
 - [ ] ubah catering (admin-ubah-catering.html)
@@ -17,12 +23,6 @@ https://whimsical.com/web-app-catering-4coWEcvm5rZYiy2JPCRTFC
 - [ ] ubah pelanggan (admin-ubah-pelanggan.html)
 - [ ] profil admin (admin-profil.html)
 - [ ] ubah profil admin (admin-ubah-profil.html)
-
-## IN PROGRESS
-- [ ] profil pelanggan (pelanggan-profil.html)
-- [ ] ubah profil pelanggan (pelanggan-ubah-profil.html)
-
-- [ ] dasbor (admin-dasbor.html)
 
 ## DONE
 - [x] beranda (index.html)
